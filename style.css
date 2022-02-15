@@ -1,0 +1,59 @@
+#head{
+  color: blue;
+  background-color: chartreuse;
+  margin-left: 10px;
+  padding-left: 80px;
+  box-sizing: 400px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px;
+
+}
+.foot{
+    background-color: rgb(3, 21, 39);
+    height: 500px;
+}
+.frm{
+    width: 570px;
+    height: 350px;
+    background-color: rgb(205, 138, 50);
+    padding: 30px;
+    padding-top: 5px;
+  
+}
+.frm input{
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px rgb(108, 217, 231);
+}
+.frm h3{
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+.foot{
+    
+    background-color: rgb(5, 14, 56);
+    margin: 50px;
+    padding: 20px;
+}
+.foot input{
+    margin: 10px;
+    padding: 2px 2px;
+    width: 290px;
+    border-radius: 30px;
+}
+.fbox{
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 370px;
+    background-color: antiquewhite;
+}
+#demo{
+    position: sticky;
+}
+@media only screen and (max-width:543px){
+    #head{
+        font-size: 20px;
+        background-color: chocolate;
+        color: white;
+    }
+}
